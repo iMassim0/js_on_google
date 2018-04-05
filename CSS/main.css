@@ -38,6 +38,37 @@ nav {
   margin: 0 10px;
 }
 
+.alert {
+    padding: 20px;
+    background-color: white;
+    color: black;
+    height: 82.5vh;
+    margin-top: 00px;
+    text-align: center;
+}
+
+
+.closebtn {
+    margin-left: -150px;
+    color: black;
+    font-weight: bold;
+
+    position: absolute;
+    top: 50%;
+    font-size: 22px;
+    line-height: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.closebtn:hover {
+    color: black;
+}
+
+.hide {
+  display : none;
+}
+
 header {
     margin-top: 0px;
     margin-bottom: -30px;
