@@ -40,15 +40,21 @@ nav {
 
 .alert {
     padding: 20px;
-    background-color: #f44336;
-    color: white;
+    background-color: white;
+    color: black;
+    height: 82.5vh;
+    margin-top: 00px;
+    text-align: center;
 }
 
+
 .closebtn {
-    margin-left: 15px;
-    color: white;
+    margin-left: -150px;
+    color: black;
     font-weight: bold;
-    float: right;
+
+    position: absolute;
+    top: 50%;
     font-size: 22px;
     line-height: 20px;
     cursor: pointer;
@@ -61,7 +67,7 @@ nav {
 
 .hide {
   display : none;
-}*/
+}
 
 header {
     margin-top: 0px;
